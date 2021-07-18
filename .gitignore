@@ -1,0 +1,17 @@
+
+petstagram/common/__pycache__/__init__.cpython-38.pyc
+petstagram/common/__pycache__/admin.cpython-38.pyc
+petstagram/common/__pycache__/apps.cpython-38.pyc
+petstagram/common/__pycache__/views.cpython-38.pyc
+petstagram/common/__pycache__/forms.cpython-38.pyc
+petstagram/common/__pycache__/models.cpython-38.pyc
+petstagram/common/__pycache__/urls.cpython-38.pyc
+petstagram/common/migrations/__pycache__/0001_initial.cpython-38.pyc
+petstagram/common/migrations/__pycache__/__init__.cpython-38.pyc
+petstagram/pets/__pycache__/__init__.cpython-38.pyc
+petstagram/pets/__pycache__/admin.cpython-38.pyc
+petstagram/pets/__pycache__/apps.cpython-38.pyc
+petstagram/pets/__pycache__/forms.cpython-38.pyc
+petstagram/pets/__pycache__/models.cpython-38.pyc
+petstagram/pets/__pycache__/urls.cpython-38.pyc
+petstagram/pets/__pycache__/views.cpython-38.pyc
