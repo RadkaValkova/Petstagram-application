@@ -22,6 +22,7 @@ class PetForm(forms.ModelForm, BootstrapFormMixin):
 
     class Meta:
         model = Pet
+        exclude = ('user',)
         fields = '__all__'
 
 
