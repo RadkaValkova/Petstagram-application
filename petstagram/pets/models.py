@@ -3,8 +3,10 @@ import os
 from os.path import join
 
 from django.conf import settings
+from django.contrib.auth import get_user_model
 from django.db import models
 
+UserModel = get_user_model()
 
 # def is_positive(value):
 #     if value <= 0:
@@ -50,6 +52,10 @@ class Pet(models.Model):
         upload_to='pets',
     )
 
+    user = models.ForeignKey(
+        UserModel,
+        on_delete=models.CASCADE,
+    )
     # def save(self, force_insert=False, force_update=False, using=None,
     #          update_fields=None):
     #     db_pet = Pet.objects.get(pk=self.id)
